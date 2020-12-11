@@ -21,8 +21,8 @@ default = ["serialization"]
 serialization = ["serde", "serde_derive", "unicase_serde"]
 
 [dependencies]
-regex = "1.1"
-rocket = { version = "0.4.2", default-features = false }
+regex = "1"
+rocket = "0.4"
 log = "0.3"
 unicase = "2.0"
 url = "2.1.0"
